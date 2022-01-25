@@ -1,4 +1,4 @@
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { projectsDataFr , projectsDataEng } from "../Data/ProjectDatas"
 import { GarbageContext } from "../Providers/GarbageProvider";
 import './Styles/Projects.css'
@@ -6,7 +6,7 @@ import './Styles/Projects.css'
 
 export default function Projects () {
 
-    const { setChangeLanguage , changeLangage } = useContext(GarbageContext);
+    const {  changeLangage } = useContext(GarbageContext);
 
 
     return (

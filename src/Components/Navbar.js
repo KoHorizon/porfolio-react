@@ -6,8 +6,7 @@ import './Styles/Navbar.css'
 
 export default function Navbar () {
 
-    const { setChangeLanguage , changeLangage } = useContext(GarbageContext);
-    const [ stockage, setStockage ] = useState('')
+    const { changeLangage } = useContext(GarbageContext);
 
 
 

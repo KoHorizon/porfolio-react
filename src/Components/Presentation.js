@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext } from 'react'
 import { GarbageContext } from '../Providers/GarbageProvider'
 import './Styles/Presentation.css'
 

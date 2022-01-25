@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
 import Main from './Pages/Main';
@@ -14,8 +13,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main/>}> </Route>
-
-
         </Routes> 
       </BrowserRouter>
     </GarbageProvider>

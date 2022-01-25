@@ -8,7 +8,7 @@ import './Styles/Skills.css'
 
 export default function Skills () {
 
-    const { setChangeLanguage , changeLangage } = useContext(GarbageContext);
+    const { changeLangage } = useContext(GarbageContext);
 
 
 
