@@ -13,7 +13,7 @@ export default function Projects () {
         <>
             <div className="projects" id="projects">
                 <div>
-                { changeLangage === false ? <h2 id="title-project">Here are my projects</h2> : <h2 id="title-project">Voici mes projets</h2> }
+                { changeLangage === false ? <h2 id="title-project-project">Here are my projects</h2> : <h2 id="title-project-project">Voici mes projets</h2> }
                 </div>
                 <div className="content-projects">
                     { changeLangage === false ? // if Eng
@@ -22,8 +22,8 @@ export default function Projects () {
                             <a className="link" href={link}  target='_blank' rel="noreferrer">
                                 <div className="projects-box">
                                     <div className="project-metadata">
-                                        <img src={img} alt={alt} />
                                         <span>{name}</span>
+                                        <img src={img} alt={alt} />
                                     </div>
                                     <div className="content">
                                         <p className="content-para">{content}</p>
@@ -37,8 +37,8 @@ export default function Projects () {
                             <a className="link" href={link} target='_blank' rel="noreferrer">
                                 <div className="projects-box">
                                     <div className="project-metadata">
-                                        <img src={img} alt={alt} />
                                         <span>{name}</span>
+                                        <img src={img} alt={alt} />
                                     </div>
                                     <div className="content">
                                         <p className="content-para">{content}</p>

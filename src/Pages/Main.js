@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Presentation from "../Components/Presentation";
 import Projects from "../Components/Projects";
+import Skills from "../Components/Skills";
 
 
 export default function Main() {
@@ -12,6 +13,7 @@ export default function Main() {
             <Navbar/>
             <Presentation/>
             <Projects/>
+            <Skills/>
         </>
     )
 }

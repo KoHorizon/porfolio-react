@@ -1,0 +1,115 @@
+.Skills {
+    margin: 0 1%;
+}
+
+
+.Skills > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: #DAA520; */
+    width: 100%;
+    
+    background-color: white;
+    /* background-color: #070b34; */
+    padding-bottom: 40px;
+}
+#title-project-skill {
+    padding-top: 50px;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+.Skills > div:nth-child(1) {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.content-projects-skills {
+    margin: 0 100px;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill,300px);  
+    justify-content: center;
+}
+
+.skill-metadata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    border-radius: 4px;
+    font-size: 35px;
+}
+
+.skill-metadata > img {
+    width:90px;
+}
+
+.content-skills {
+    display: none;
+}
+.skill-box {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+}
+
+
+.react {
+    background-color: #b3cdd1;
+    color: #222;
+    font-weight: 600;
+}
+
+.symfony {
+    background-color: #324376;
+    color: white;
+}
+
+
+.node {
+    background-color: #596157;
+    color: white;
+}
+
+
+.typescritp {
+    background-color: #05668d;
+    color: white;
+}
+
+.python {
+    background-color: #161925;
+    color: white;
+}
+
+.vue {
+    background-color: #b6c197;
+    color: #222;
+    font-weight: 600;
+}
+
+.django {
+    background-color: #d5ddbc;
+    color: #222;
+    font-weight: 600;
+}
+
+.mysql {
+    background-color: #8ca0d7;
+    color: #222;
+    font-weight: 600;
+}
+
+
+.docker {
+    background-color: #b8dbd9;
+    color: #222;
+    font-weight: 600;
+}

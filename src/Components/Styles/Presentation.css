@@ -13,28 +13,21 @@
 }
 
 .presentation > p:nth-child(2) {
-    width: 85%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    width: 70%;
     font-size: 32px;
-    line-height: 45px;
+    line-height: 50px;
     letter-spacing: 2px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-}
-.para-eng {
+    
     animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
 }
 
-/* to change by animation lib */
-.para-fr {
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-}
 @keyframes fadein {
     from {
         opacity:0;
