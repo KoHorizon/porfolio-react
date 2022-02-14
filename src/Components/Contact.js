@@ -9,8 +9,8 @@ export default function Contact () {
                 <p>Mail : Rinoshan@hotmail.fr</p>
                 <p>Tel : 07 63 09 53 07</p>
                 <div className="img-contact">
-                    <a href="https://github.com/KoHorizon" target="_blank"><img src="./logo/git-logo.png" alt="" /></a>
-                    <a href="https://www.linkedin.com/in/rinoshan-vijayakumar-114108194/" target="_blank"><img src="./logo/lk-logo.png" alt="" /></a>
+                    <a href="https://github.com/KoHorizon" target="_blank" rel="noreferrer"><img src="./logo/git-logo.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/rinoshan-vijayakumar-114108194/" target="_blank" rel="noreferrer"><img src="./logo/lk-logo.png" alt="" /></a>
                 </div>
             </div>
         </div>
