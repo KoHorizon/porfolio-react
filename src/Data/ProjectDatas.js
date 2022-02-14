@@ -26,11 +26,11 @@ export const projectsDataFr = [
         alt: 'typescript',
     },
     {
-        img: './logo/typescript-logo.png',
-        name: 'Remplire',
-        content: `Remplire`,
-        link: '',
-        alt: 'typescript',
+        img: './logo/php-logo.png',
+        name: 'Century Project',
+        content: 'Projet PHP avec pour objectif de créer une platform de tournois avec quelque fonctionnalité de gestion, pour le jeu "Century: Age of Ashes"',
+        link: 'https://github.com/KoHorizon/centuryProjectPROPRE',
+        alt: 'PHP',
     },
 ]
 
@@ -62,10 +62,10 @@ export const projectsDataEng = [
         alt: 'typescript',
     },
     {
-        img: './logo/typescript-logo.png',
-        name: 'fill',
-        content: `fill`,
-        link: 'https://github.com/KoHorizon/nodeTS',
-        alt: 'typescript',
+        img: './logo/php-logo.png',
+        name: 'Century Project',
+        content: 'Projet PHP made with the purpose of creating a platform to create and handle tournaments for the game "Century: Age of Ashes"',
+        link: 'https://github.com/KoHorizon/centuryProjectPROPRE',
+        alt: 'PHP',
     },
 ]

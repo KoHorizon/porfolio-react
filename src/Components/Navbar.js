@@ -37,11 +37,13 @@ export default function Navbar () {
                 <div className="nav-option">
                     <a href="#projects" className={`${activeLink === 'projects'  && 'active'}`} onClick={() => setActiveLink('projects')}>Projects</a>
                     <a href="#skills" className={`${activeLink === 'skills'  && 'active'}`} onClick={() => setActiveLink('skills')}>Skills </a>
+                    <a href="#contact" className={`${activeLink === 'contact'  && 'active'}`} onClick={() => setActiveLink('contact')}>Contact </a>
                 </div>
             :  
                 <div className="nav-option">
                     <a href="#projects" className={`${activeLink === 'projects'  && 'active'}`} onClick={() => setActiveLink('projects')}>Projet</a>
                     <a href="#skills" className={`${activeLink === 'skills'  && 'active'}`} onClick={() => setActiveLink('skills')}>Compétence </a>
+                    <a href="#contact" className={`${activeLink === 'contact'  && 'active'}`} onClick={() => setActiveLink('contact')}>Contact </a>
                 </div>
             }
             <div className="switcher">

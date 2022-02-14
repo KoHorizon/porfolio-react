@@ -1,0 +1,30 @@
+.contact {
+    height:270px;
+    width: 100%;
+    background-color: #050505;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+.data-contact  {
+    font-size: 27px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.img-contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.img-contact > a > img {
+    width:60px;
+}
