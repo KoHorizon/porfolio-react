@@ -21,7 +21,7 @@ export const projectsDataFr = [
     {
         img: './logo/typescript-logo.png',
         name: 'Backend-JWT Entrainement',
-        content: `Petite API entièrement en basée sur Typescript, avec la création d'un système de securite JWT pour l'authentification des utilisateurs avec les bonnes pratiques du REST.`,
+        content: `Petite API entièrement conçu sur Typescript, avec la création d'un système de sécurité JWT pour l'authentification des utilisateurs avec les bonnes pratiques du REST.`,
         link: 'https://github.com/KoHorizon/nodeTS',
         alt: 'typescript',
     },
